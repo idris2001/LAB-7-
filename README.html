@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<HTML-код Ланг="Ан">
-<глава>
- <мета кодировка="УТФ-8">
- <мета имя="область просмотра" содержимого="ширина=устройство-ширина, начально-масштаб=1.0">
- <мета НТТР-экв="х-УА-совместимый" содержание="т. е.=кра">
- <название>документ</название>
-</глава>
-<тело>
- <скрипт>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
     /*var question = prompt("в каком году ты поступил?","")
- var question2 = prompt("как тебя зовут?", "")
- если (!(question == 2017 || question2 =="Иван")){
- alert("правильно ")
+    var question2 = prompt("как тебя зовут?", "")
+    if (!(question == 2017 || question2 =="Иван")){
+      alert("правильно ")
     }
- еще {
+     else {
       alert("неправильно ")
     }*/
+
     //1
     /*var value =prompt('ввод',"")
     if (value==1000) {
@@ -23,9 +24,11 @@
     } else {
       alert("неверно")
     }
+    
     var value = prompt("ввод")
       alert(value==1000 ? "верно" : "неверно")
-      //2
+      
+        //2
       var a = 9 + 5;
       switch (a){
         case 9:
@@ -43,6 +46,7 @@
 //3
 var lang = prompt ("en/ru");
 var week = [];
+
 if (lang=="ru") {
   (week= ["пн", 'вт', "ср", "чт", "пт", "сб", "вс" ])
 } else if
@@ -50,6 +54,8 @@ if (lang=="ru") {
   (week=["md", "td", "wd"]);
 }
 alert(week)
+
+
 var lang = prompt ("en/ru");
 var week = [];
 switch (lang){
@@ -74,24 +80,28 @@ case "вычитание":
  break;
 case "умножение":
  res=n1*n2
- alert (res)
- ломать;
+ alert(res)
+ break;
 case "деление":
- если(n2>0){
- res=n1 / n2
- alert (res)}
- иначе если (n2== " 0")
- alert("Нельзя делить на ноль")
+ if(n2>0){
+   res=n1/n2
+   alert(res)}
+   else if (n2=="0")
+   alert("Нельзя делить на ноль")
  }
  */
- //5
+
+   
+   //5
  var word=prompt("введите слово")
- ВАР буквы = 0;
- если(слово.метод indexOf("а")!==-1) письмо++
- если(слово.метод indexOf("е")!==-1) письмо++
- если(слово.метод indexOf("я")!==-1) письмо++
- если(слово.метод indexOf("о")!==-1) письмо++
-уведомление(письмо);
-  </скрипт>
-</тело>
-</HTML-код>
+ var letter = 0;
+ if(word.indexOf("a")!==-1) letter++
+ if(word.indexOf("e")!==-1) letter++
+ if(word.indexOf("i")!==-1) letter++
+ if(word.indexOf("o")!==-1) letter++
+alert(letter);
+
+   
+   </script>
+</body>
+</html>
